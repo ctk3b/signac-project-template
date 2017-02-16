@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 class MyTorqueEnvironment(flow.environment.TorqueEnvironment):
-    hostname_pattern = 'mymoabcluster.university.edu'
+    hostname_pattern = 'mycluster.university.edu'
     cores_per_node = 16
 
     @classmethod

@@ -74,7 +74,7 @@ If you already have a project repository and you want to merge an updated templa
 cd your_project
 git remote add template https://$USER@bitbucket.org/glotzer/signac-project-template.git
 git fetch template
-git merge template/master 
+git merge template/master
 ```
 If you have many conflicts it might be easier to do a rebase:
 ```
